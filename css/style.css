@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.postCard h3{
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+body{
+    background-color: #ededed;
+}
+.loader{
+    position: fixed;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0, 0, .3);
+}
